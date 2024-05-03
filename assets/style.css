@@ -1,0 +1,77 @@
+:root {
+  --dark: rgb(181, 98, 214);
+}
+
+body {
+  background-color:black;
+  color: white;
+}
+
+header {
+  margin: 1%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  color: var(--dark);
+  font-size: 200%;
+  margin: 1%;
+}
+
+header p {
+  text-align: center;
+  margin: 5%;
+}
+
+.justify-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.card-column {
+  border: white 2px dashed;
+  padding: 1rem;
+flex: 1 0 100%;
+justify-content: flex-start;
+max-width: 30%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: flex-start;
+  min-height: 100%;
+  position: relative;
+  color: var(--dark);
+}
+
+.card-header {
+  border: white 2px solid;
+  margin: .5rem;
+  padding: .75rem;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 90%;
+  font-size: 140%;
+  background-color: black;
+}
+p {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-size: 80%;
+}
+.code-block {
+  background: linear-gradient(rgb(96, 45, 116), rgb(181, 98, 214));
+  color: white;
+  border-radius: 6px;
+  padding: .5rem;
+}
+pre {
+  text-wrap:wrap; 
+}
